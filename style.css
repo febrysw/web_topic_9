@@ -1,0 +1,83 @@
+body {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    background-color: wheat;
+}
+
+a {
+    padding: 10px;
+    float: left;
+    color: chocolate
+}
+
+a:hover {
+    background-color: coral;
+    color: white;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+.tema1 {
+    overflow: hidden;
+    background-color: plum;
+    padding: 10px;
+}
+
+.judul {
+    text-align: center;
+    padding: 10px;
+    width: 70%;
+}
+
+#judul {
+    text-align: center;
+    padding: 10px;
+    font-size: calc(13px*4);
+    font-weight: bold;
+}
+
+#subjudul {
+    font-size: calc(52px/1.618);
+}
+
+.artikel {
+    font-weight: bold;
+    font-size: calc(13px*3);
+}
+
+.subartikel {
+    font-size: calc(39px/1.618);
+}
+
+.subsubartikel {
+    font-size: calc(24px/1.618);
+}
+
+#isi p {
+    width: 70%;
+}
+
+aside {
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: 25%;
+    left: 70%;
+}
+
+.footer {
+    color: chocolate;
+    display: flex;
+}
+
+.footer-width {
+    width: 33%;
+}
